@@ -1,2 +1,2 @@
 # ap-cs
-Disorganized amalgam of java code
+Horrible amalgam of java code to be organized later
