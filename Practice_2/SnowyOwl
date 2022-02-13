@@ -1,0 +1,20 @@
+public class SnowyOwl extends Owl {
+    private boolean sex;
+
+    public SnowyOwl(boolean s) {
+        super("SnowyOwl")
+        sex = s;
+    }
+
+    public String getColor() {
+        if (sex) return "white";
+        return "speckled";
+    }
+
+    public String getFood() {
+        int rando = (int) (Math.random() * 3);
+        if (rando == 0) return "hare";
+        else if (rando == 1) return "lemming";
+        else return "small bird";
+    }
+}

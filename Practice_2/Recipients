@@ -1,0 +1,16 @@
+public String extractCity(String cityZip) {
+    return cityZip.substring(0, indexOf(","));
+}
+
+public String getAdress(String name) {
+    String ret = "";
+    for (int i = 0; i < line.size(); i++) {
+        if (lines.get(i).equals(name)) {
+            for (int j = i; j < line.size(); j++) {
+                if (line.get(j).equals("")) return ret;
+                ret += line.get(j) + \n;
+            }
+        }
+    }
+    return ret;
+}

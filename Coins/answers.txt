@@ -1,0 +1,47 @@
+Names: Bryan Zhang, Noakai Aronesty, Alyssa Choi, Han Zhang, Jessica Eng, Christin Lin
+
+Documentation: These are our answers for tasks 2 and 3
+
+========================================================
+Task #2:
+========================================================
+1) 35 % chance (50% chance of 50% chance + 50% chance of 20% chance)
+
+2) No it won't because Object doesn't contain the flip method
+
+3) Yes because the flippable class contains the flip method.
+
+4) Yes because the object takes the flip method from the BiasedCoin class
+
+========================================================
+Task #3:
+========================================================
+5) a. 12
+b. 8 
+
+6) a. 3
+b. 30
+
+7) a. 3
+b. 6
+c. 19
+
+8) a. 3
+b. 6
+c. Doesn't work because A doesn't have a method h(); Compiler error
+
+9) a. 3
+b. 6 
+c. Compiler error
+
+10)a. 2
+b. 2
+c. Compiler error
+d. 10
+e. Howdy
+f. Howdy
+
+
+
+
+
